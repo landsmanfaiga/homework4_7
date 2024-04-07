@@ -3,7 +3,6 @@ import React from 'react';
 class PersonForm extends React.Component {
     
     render() {
-        console.log(this.props);
         return (
                <div className='row'>
          <div className='col-md-6 offset-md-2'>

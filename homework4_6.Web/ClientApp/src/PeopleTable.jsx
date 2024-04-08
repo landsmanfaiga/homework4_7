@@ -34,7 +34,6 @@ class PeopleTable extends React.Component {
     onAddClick = () => {
         const copy = [...this.state.People];
         copy.push(this.state.currentPerson);
-        console.log(copy);
         this.setState({ People: copy, currentPerson: '' })
     }
 
